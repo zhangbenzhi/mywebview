@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/baidu"
+        android:tag="https://www.baidu.com/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="百度"
+        android:textSize="20dp"
+        android:textColor="#999999"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/taobao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="腾讯"
+        android:tag="https://www.qq.com/"
+        android:textSize="20dp"
+        android:textColor="#999999"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/jingdong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="阿里巴巴"
+        android:tag="https://www.alibabagroup.com/cn/global/home"
+        android:textSize="20dp"
+        android:textColor="#999999"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+</LinearLayout>
