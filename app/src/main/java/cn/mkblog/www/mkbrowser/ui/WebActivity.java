@@ -437,8 +437,7 @@ public class WebActivity extends AppCompatActivity implements View.OnClickListen
             case R.id.goForward:
                 webView.goForward();
                 break;
-
-            // 主页
+             // 主页
             case R.id.goHome:
                 webView.loadUrl(getResources().getString(R.string.home_url));
                 break;
